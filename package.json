@@ -1,0 +1,21 @@
+{
+  "name": "royli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tazoukaa",
+  "license": "ISC",
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "discord.js": "^12.5.1",
+    "figlet": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "ios": "^0.0.1",
+    "moment": "^2.29.1",
+    "quick-db": "^1.0.5",
+    "superagent": "^6.1.0"
+  }
+}
