@@ -6,7 +6,7 @@ module.exports.run = (bot, message, args) => {
         return message.channel.send(nontrouvé)
     }
     let banReason = args.join(" ").slice(22);
-    if(!message.member.hasPermission("ADMINISTRATOR")) {
+    if(!message.member.hasPermission("CREATE_INVITE")) {
         return message.channel.send(nonpermission)
     }
     if(bannedUser.hasPermission("ADMINISTRATOR")) {
